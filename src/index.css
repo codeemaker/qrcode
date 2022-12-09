@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+}
+.elemtCont{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  transform:translate(0,50%);
+}
+.qrContain{
+  width:150px;
+  height:150px;
+  border:1px solid rgb(33, 39, 39);
+}
+.qrValue{
+  width:inherit;
+  height:inherit;
+}
+.container{
+  width:100vw;
+  height:100vh;
+}
+.readerContain{
+  width:150px;
+  height:150px;
+}
+.readerDiv section div{
+  border: unset !important;
+  box-shadow: unset !important; 
+}
+.readerDiv{
+  width:150px;
+  height:150px;
+  border:1px solid blue;
+}
+.readingHead{
+  border:none;
+}
+.scanBtn{
+  padding:5px;
+  border-radius:5px;
+  border:1px solid rgb(27, 22, 22);
+  outline:none;
+  margin-top:10px;
+  width:100px;
+  height:50px;
+}
+.scanBtn:hover{
+  color:rgb(245, 231, 231);
+  background-color:#b82e1f;
+  ;
+}
+.crossMark{
+  cursor:pointer;
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+.cardDiv{
+  background-image: linear-gradient(to right top, #b82e1f, #8c2026, #5e1823, #321219, #000000);
+  width:300px;
+  height:150px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:5px;
+}
+.cardDiv h1{
+  text-align:center;
+  color:rgb(247, 244, 244);
+  margin-top:10px;
+  font-weight:bold;
+  font-size:25px;
+}
+.detailsDiv{
+  position:absolute;
+  left:10px;
+  bottom:20px;
+  color:rgb(247, 244, 244);
+  font-family:monospace;
+}
+button{
+  cursor:pointer;
+}
+.historyBtn{
+  color:rgb(252, 237, 237);
+  background-color:#b82e1f;
+  border:none;
+  width:50px;
+  padding:5px;
+  border-radius:5px;
+  position:relative;
+  top:20px;
+  left:20px;
+}
+.pdfBtn{
+  color:rgb(252, 237, 237);
+  background-color:#b82e1f;
+  border:none;
+  width:70px;
+  padding:5px;
+  border-radius:5px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin-top:100px;
+}
